@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>akwvisuals styleguide</title>
+
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/grid.css">
+
+</head>
+
+<body>
+	
+	<!-- NAVIGATION BAR -->
+	<div id="nav-bar">
+		<a class="nav-logo" href="index.html">
+			<img src="img/logo-blk.png" alt="akwvisuals logo">
+		</a>
+		<div class="nav-pages">
+			<ul>
+			  <li class="nav-work clicked"><a href="styleguide.html">Styleguide</a></li>
+			  <li><a href="citations.html">Citations</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- PAGE CONTENT STARTS HERE -->
+	<div class="content">
+
+		<section class="style-section">
+			<div class="styleguide-pg-header">
+				<h1> welcome to my styleguide</h1>
+			</div>
+		</section>
+
+		<!-- HEADER 1 section -->
+		<section class="style-section">
+			<div class="styleguide-section-header">
+
+				<h1 class="styleguide-h1">Heading 1</h1>
+				<h1>page header</h1>
+
+				<div class="code-section">
+					<p>HTML CODE:</p>
+					<code>
+					&lt;h1&gt; page header &lt;/h1&gt;
+					</code>
+
+					<p>CSS CODE:</p>
+					<code>
+					h1{<br>
+					letter-spacing: 0.8rem;<br>
+					font-size: 2.5rem;<br>
+					font-weight: 500;<br>
+					}
+					</code>
+				</div>
+			</div>
+		</section>
+
+		<!-- HEADER 2 section -->
+		<section class="style-section">
+			<div class="styleguide-section-header">
+
+				<h1 class="styleguide-h1">Heading 2</h1>
+				<h2>project section header</h2>
+
+				<div class="code-section">
+					<p>HTML CODE:</p>
+					<code>
+					&lt;h2&gt; project section header &lt;/h2&gt;
+					</code>
+
+					<p>CSS CODE:</p>
+					<code>
+					h2{<br>
+					letter-spacing: 0.8rem;<br>
+					font-size: 1rem;<br>
+					font-weight: 600;<br>
+					text-transform: uppercase;<br>
+					}
+					</code>
+				</div>
+
+			</div>
+		</section>
+
+		<!-- HEADER 3 section -->
+		<section class="style-section">
+			<div class="styleguide-section-header">
+
+				<h1 class="styleguide-h1">Heading 3</h1>
+				<h3>subheader</h3>
+
+				<div class="code-section">
+					<p>HTML CODE:</p>
+					<code>
+					&lt;h3&gt; subheader &lt;/h3&gt;
+					</code>
+
+					<p>CSS CODE:</p>
+					<code>
+					h3{<br>
+					letter-spacing: 0.1rem;<br>
+					text-transform: uppercase;<br>
+					font-size: 0.9rem;<br>
+					}
+					</code>
+				</div>
+
+			</div>
+		</section>
+
+		<!-- paragraph section -->
+		<section class="style-section">
+			<div class="styleguide-section-header">
+
+				<h1 class="styleguide-h1">Paragraph</h1>
+				<p>paragraph</p>
+
+				<div class="code-section">
+					<p>HTML CODE:</p>
+					<code>
+					&lt;p&gt; paragraph &lt;/p&gt;
+					</code>
+
+					<p>CSS CODE:</p>
+					<code>
+					p{<br>
+					letter-spacing: 0.15rem;<br>
+					font-size: 0.9rem;<br>
+					font-weight: 100;<br>
+					line-height: 2rem;<br>
+					padding-bottom: 1.1rem;<br>
+					}
+					</code>
+				</div>
+
+			</div>
+		</section>
+
+		<!-- in-text link section -->
+		<section class="style-section">
+			<div class="styleguide-section-header">
+
+				<h1 class="styleguide-h1">in-text link</h1>
+				<p class="styleguide-link">click<a href="#">here for my resume</a></p>
+
+				<div class="code-section">
+					<p>HTML CODE:</p>
+					<code>
+						&lt;p&gt;click&lt;a href="#"&gt;here&lt;/a&gt;for my resume&lt;/p&gt;
+					</code>
+
+					<p>CSS CODE:</p>
+					<code>
+					a{<br>
+					color: #7C848C;<br>
+					text-decoration: none;<br>
+					text-transform: uppercase;<br>
+					letter-spacing: 0.3rem;<br>
+					}<br>
+
+					a:hover, .clicked a:hover{<br>
+						color: #1071FF;<br>
+					}<br>
+					</code>
+				</div>
+
+			</div>
+		</section>
+
+		<!-- colours section -->
+		<section class="style-section">
+			<div class="styleguide-section-header">
+				<h1 class="styleguide-h1">colours</h1>
+				<div class="colour-swatches">
+					<p class="grey-white"> #F4F4F4</p>
+					<p class="neon-blue"> #1071FF</p>
+					<p class="med-grey"> #7C848C</p>
+					<p class="black"> #000000</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- in-text link section -->
+		<section class="style-section">
+			<div class="styleguide-section-header">
+
+				<h1 class="styleguide-h1">section box</h1>
+				<!-- ABOUT SUMMARY -->
+				<div class="sg-section-box">
+					<h1> HELLO,</h1>
+				</div>
+
+				<div class="code-section">
+					<p>HTML CODE:</p>
+					<code>
+						&lt;h1&gt; HELLO, &lt;/h1&gt;
+					</code>
+
+					<p>CSS CODE:</p>
+					<code>
+					#content-section{<br>
+					  background-color: white;<br>
+					  padding-bottom: 2.5rem;<br>
+					  margin: 0 15rem;<br>
+					  border-radius: 35px;<br>
+					  border-bottom: 17px solid #AFAFAF;<br>
+					  border-right: 20px solid #E5E5E5;<br>
+					}
+					</code>
+				</div>
+				
+			</div>
+		</section>
+
+			<!-- in-text link section -->
+		<section class="style-section">
+			<div class="styleguide-section-header">
+
+				<h1 class="styleguide-h1">navigation bar</h1>
+				<p>refer to the navigation bar at the top of this screen.</p>		
+
+				<div class="code-section">
+					<p>HTML CODE:</p>
+					<code>
+						&lt;div id="nav-bar"&gt;<br>
+							&lt;a class="nav-logo" href="index.html"&gt;<br>
+								&lt;img src="img/logo-blk.png" alt="akwvisuals logo"&gt;<br>
+							&lt;/a&gt;<br>
+							&lt;div class="nav-pages"&gt;<br>
+							&lt;ul&gt;<br>
+							  &lt;li class="nav-work"&gt;&lt;a href="#projects"&gt;Work&lt;/a&gt;&lt;/li&gt;<br>
+							  &lt;li&gt;&lt;a href="about.html"&gt;About&lt;/a&gt;&lt;/li&gt;<br>
+							&lt;/ul&gt;<br>
+							&lt;/div&gt;<br>
+						&lt;/div&gt;
+					</code>
+
+					<p>CSS CODE:</p>
+					<code>
+					#nav-bar{<br>
+					width: 100%;<br>
+				    position: fixed;<br>
+				    top: 0;<br>
+				    z-index: 10;<br>
+				    background-color: #F4F4F4; <br>
+					}<br>
+
+					.nav-logo img {<br>
+					max-width: 40%;<br>
+					padding: 2rem 0;<br>
+					}
+					</code>
+				</div>
+			</div>
+		</section>
+
+		<!-- HEADER 1 section -->
+		<section class="style-section">
+			<div class="styleguide-section-header">
+
+				<h1 class="styleguide-h1">Wireframes</h1>
+
+					<div class="sg-wireframes">
+						<img src="img/wireframes.png" alt="Image of Goodnight Light final product">
+					</div>
+			</div>
+		</section>
+
+		<!-- FOOTER -->
+		<section class="footer">
+			<p>© 2020 Summer IAT339 D101 Ashley Wong</p>
+			<div class="footer-links">
+			<p><a href="index.html">return to AKWVISUALS</a></p>
+			</div>
+		</section>
+	</div>
+</body>

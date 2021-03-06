@@ -1,0 +1,515 @@
+html{
+	background-color: #F4F4F4;
+}
+
+.content{
+	position: absolute;
+	top: 14rem;
+	width: 100%;
+}
+
+.content2{
+	top: 10rem;
+}
+
+*{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*------------TEXT / FONTS -------------*/
+
+p{
+	letter-spacing: 0.15rem;
+	font-size: 0.9rem;
+	font-weight: 100;
+	line-height: 2rem;
+	padding-bottom: 1.1rem;
+}
+
+a{
+	color: #7C848C;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 0.3rem;
+}
+
+a:hover, .clicked a:hover{
+	color: #1071FF;
+}
+
+.clicked a{
+	color: black;
+}
+
+h1{
+	letter-spacing: 0.8rem;
+	font-size: 2.5rem;
+	font-weight: 500;
+}
+
+h2{
+	letter-spacing: 0.8rem;
+	font-size: 1rem;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+h3{
+	letter-spacing: 0.1rem;
+	text-transform: uppercase;
+	font-size: 0.9rem;
+}
+
+/*------------NAVIGATION BAR-------------*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+}
+
+
+li a {
+  display: inline-block;
+  padding: 0 1.5rem;
+  font-size: 1rem;
+}
+
+#nav-bar{
+	width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: #F4F4F4; 
+}
+
+.nav-logo img {
+	max-width: 40%;
+	padding: 2rem 0;
+}
+
+/*------------BOX ON LANDING PAGE-------------*/
+.box img{
+	width: 100%;
+	min-width: 100%;
+	position: relative;
+	top: 2rem;
+}
+
+.about-bg img{
+	top: 6rem;
+	position: relative;
+	padding: 0 5rem;
+}
+
+.contact-bg img{
+	top: 12rem;
+	position: relative;
+}
+
+/*------------LANDING PAGE BRIEF DESCRIPTIONS-------------*/
+
+#content-section, .design-section{
+	background-color: white;
+	padding-bottom: 2.5rem;
+	margin: 0 15rem;
+	border-radius: 35px;
+}
+
+#content-section{
+	/*border around content*/
+	border-bottom: 17px solid #AFAFAF;
+	border-right: 20px solid #E5E5E5;
+}
+
+.design-section{
+	margin-bottom: 2rem;
+}
+
+.ab-content{
+	padding: 0 4rem;
+	text-align: left;
+}
+
+.title{
+	padding-top: 1rem;
+}
+
+/*------------LANDING PAGE - ABOUT ME-------------*/
+
+.about-options{
+	width: 100%;
+	text-align: center;
+	margin: 0 4rem;
+	padding-top: 2.5rem;
+	border-top: 0.5px solid rgb(200, 200, 200);
+}
+
+/*------------LOGO img-------------*/
+
+figcaption{
+	text-align: center;
+}
+
+figure{
+	padding: 0 0;
+	margin:0 3rem; 
+}
+
+/*------------LANDING PAGE - PROJECTS-------------*/
+
+.project-container{
+	top: 0;
+	width: 100%;
+}
+
+.project-container a{
+	font-size: 0.8rem;
+}
+
+/*------------LANDING PAGE - UI DESIGN -------------*/
+
+.proj-img-container img{
+	width: 100%;
+	min-width: 100%;
+	padding: 0 3rem;
+}
+
+.proj-img-container{
+	text-align: center;
+	margin: 1rem 12rem;
+}
+
+.ui-desc{
+	margin-top: 2rem;
+}
+
+/*------------OVERALL PAGE LAYOUT-------------*/
+
+#page-content{
+	padding-bottom: 3rem;
+	text-align: center;
+}
+
+/*------------PROJECTS SECTION-------------*/
+.project-page h1{
+	font-size: 1rem;
+	color: #F4F4F4;
+	margin-bottom: 2rem;
+}
+
+/*------------ABOUT PAGE-------------*/
+.portrait img{
+	margin-bottom: 0;
+	max-width: 100%;
+	position: relative;
+}
+
+.portrait{
+	text-align: center;
+	width: 100%;
+}
+
+.about-intro p{
+	margin-bottom: 0;
+	font-size: 1.2rem;
+
+}
+
+.about-intro h1{
+	margin-bottom: 0;
+	padding-left: 1rem;
+	font-size: 3rem;
+}
+
+.about-intro{
+	margin-top: 0;
+	margin-bottom: 2rem;
+	text-align: center;
+	width: 100%;
+}
+
+.title h1{
+	text-align: center;
+}
+
+.about-content{
+	text-align: center;
+	width: 42rem;
+	padding-bottom: 3rem;
+	border-bottom: 0.5px solid rgb(200, 200, 200);
+}
+
+.about-content p{
+	width: 100%;
+	text-align: left;
+	padding: 0 2rem;
+	padding-top: 0.5rem;
+	padding-bottom: 1rem;
+}
+
+.connect{
+	min-width: 100%;
+	text-align: center;
+	margin-top: 1rem;
+}
+
+.connect h1{
+	font-size: 1rem;
+	letter-spacing: 0.5rem;
+	text-transform: uppercase;
+	color: #1071FF;
+}
+
+.socials{
+	margin-top: 3rem;
+	display: flex;
+	flex-direction: row;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 2rem;
+}
+
+.socials h1{
+	letter-spacing: 0.2rem;
+	font-size: 1rem;
+	color: rgb(169, 169, 169); 
+	text-align: left;
+}
+
+.socials p{
+	padding: 0 6rem 0 0;
+}
+
+.resume p{
+	padding: 0;
+}
+
+.resume a, .ig-handles a, .email-add a{
+	text-transform: lowercase;
+	letter-spacing: 0.2rem;
+	color: black;
+	background-color: #F4F4F4;
+}
+
+.resume a:hover, .ig-handles a:hover, .email-add a:hover{
+	color: #1071FF;
+}
+
+/*------------PROJECT DETAIL PAGE: ENVIRONMENT APP-------------*/
+
+.project-section{
+	text-align: center;
+	width: 100%;
+	margin: 0 9rem 2rem;
+}
+
+.proj-goals p, .proj-goals h3, .proj-goals h2{
+	text-align: left;
+}
+
+.proj-intro p{
+	margin-bottom: 3.5rem;
+}
+
+.proj-goals h3{
+	margin-bottom: 2rem;
+}
+
+.no-proj-img h2{
+	padding-bottom: 2rem;
+	text-align: center;
+}
+
+.proj-goals, .proj-img-section{
+	margin-top:auto;
+	margin-bottom:auto;
+}
+
+.proj-img-section img{
+	width: 100%;
+}
+
+.proj-img-left{
+	margin: 0 3rem 0 0;
+}
+
+.proj-img-right{
+	margin: 0 0 0 3rem;
+}
+
+.proj-img-middle{
+	margin: 0;
+}
+
+.proj-img-middle figcaption p{
+	text-align: center;
+}
+
+.proj-img-right figcaption p, .proj-img-left figcaption p, .proj-img-middle figcaption p{
+	font-size: 0.7rem;
+}
+
+.no-proj-img, .header-border h2, .proj-inline{
+	background-color: #EAEAEA;
+	border-radius: 35px;
+	padding: 3rem;
+	text-align: center;
+}
+
+.proj-img-inside{
+	margin:3rem 22rem;
+}
+
+.plain-proj-goals{
+	background-color: #F4F4F4;
+}
+
+.proj-inline{
+	display: flex;
+	flex-direction: row;
+}
+
+.proj-inline h2{
+	text-align: center;
+	padding-bottom: 2rem;
+}
+
+.proj-header h2{
+	padding-bottom: 0;
+}
+
+/*------------FOOTER-------------*/
+
+.footer{
+	margin: 0 2rem;
+	padding: 2rem 1rem 1rem;
+	border-top: 0.5px solid rgb(200, 200, 200);
+	text-align: center;
+	background-color: #F4F4F4;
+	width: 100%;
+}
+
+.footer p{
+	color: rgb(169, 169, 169);
+	font-size: 0.8rem;
+	display: inline;
+	padding-bottom: 0;
+}
+
+.footer-links a{
+	color: #1071FF;
+	font-size: 0.7rem;
+}
+
+/*------------STYLEGUIDE-------------*/
+.style-section{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 4rem;
+}
+.styleguide-pg-header h1{
+	text-align: center;
+	font-size: 2rem;
+	color: #7A838C;
+}
+
+.styleguide-section-header{
+	margin: 0 17rem;
+	background-color: white;
+	border-radius: 35px;
+	padding: 2rem 4rem 2rem 4rem;
+	border-bottom: 5px solid rgb(200, 200, 200);
+	border-left: 5px solid rgb(200, 200, 200);
+	text-align: left;
+}
+
+.styleguide-h1{
+	font-size: 0.8rem;
+	letter-spacing: 0.4rem;
+	margin-bottom: 2rem;
+	color: #006DFF;
+	text-transform: uppercase;
+}
+
+.code-section p{
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+code{
+	padding-top: 1rem;
+}
+
+.grey-white{
+	font-size: 1rem;
+	background-color: #F4F4F4;
+	padding: 1em 1rem;
+	margin-right: 2rem;
+	display: inline-block;
+}
+
+.med-grey{
+	font-size: 1rem;
+	background-color: #7C848C;
+	padding: 1em 1rem;
+	margin-right: 2rem;
+	display: inline-block;
+}
+
+.neon-blue{
+	font-size: 1rem;
+	background-color: #1071FF;
+	padding: 1em 1rem;
+	margin-right: 2rem;
+	display: inline-block;
+}
+
+.black{
+	font-size: 1rem;
+	background-color: black;
+	padding: 1em 1rem;
+	margin-right: 2rem;
+	display: inline-block;
+	color: #F4F4F4;
+}
+
+.colour-swatches{
+	width: 100%;
+	margin: 0 3rem;
+	text-align: center;
+	margin: auto;
+}
+
+
+.styleguide-link a{
+	padding: 0 0.5rem 0.7rem;
+}
+
+.sg-section-box{
+	background-color: #F3F3F3;
+	border-radius: 35px;
+	padding: 2rem 4rem 2rem 4rem;
+	border-bottom: 5px solid rgb(200, 200, 200);
+	border-left: 5px solid rgb(200, 200, 200);
+	text-align: left;
+	width: 100%;
+}
+
+.sg-section-box h1{
+	width: 100%;
+}
+
+.citation-font a{
+	font-size: 0.9rem;
+	text-transform: capitalize;
+}
+
+.sg-wireframes img{
+	width: 100%;
+}
