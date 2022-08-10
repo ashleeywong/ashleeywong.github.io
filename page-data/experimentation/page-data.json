@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-content-template-js",
+    "path": "/experimentation",
+    "result": {"pageContext":{"pageSections":[{"section":null,"title":"intro","content":[{"item":null,"type":"TextBody","title":"Overview","body":"Here are some of the graphics I made for a senior level design course as well as a few other ones I made during my free time!"},{"item":null,"type":"Group","content":[{"item":null,"type":"TextList","title":"Tools","items":["Illustrator","Photoshop","Figma","Procreate"]}]}]},{"section":null,"title":"posters","content":[{"item":null,"type":"Image","imageName":"cp_ideation.png","alt":"screenshot of exploration stage"},{"item":null,"type":"Image","imageName":"cp_ideation.png","alt":"video of first prototype"},{"item":null,"type":"Image","imageName":"cp_ideation.png","alt":"screenshot of exploration stage"},{"item":null,"type":"Image","imageName":"cp_ideation.png","alt":"video of first prototype"}]}],"pageTitle":"EXPERIMENTATION"}},
+    "staticQueryHashes": []}
